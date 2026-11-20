@@ -1,0 +1,168 @@
+{
+  "$schema": "../convocations.schema.json",
+  "version": 1,
+  "updatedAt": "2026-11-19",
+  "universities": [
+    {
+      "id": "northfield",
+      "name": "Northfield University",
+      "shortName": "NFU",
+      "location": "Colombo, Sri Lanka",
+      "timezone": "Asia/Colombo",
+      "website": "https://example.edu",
+      "convocations": [
+        {
+          "id": "northfield-2026",
+          "title": "General Convocation 2026",
+          "year": 2026,
+          "days": [
+            {
+              "date": "2026-11-24",
+              "label": "Day 1",
+              "sessions": [
+                {
+                  "id": "northfield-2026-d1-s1",
+                  "name": "Session 1 · Morning",
+                  "startsAt": "08:30",
+                  "faculties": ["Faculty of Engineering"],
+                  "degrees": ["BSc Eng (Hons) Civil", "BSc Eng (Hons) Mechanical", "BSc Eng (Hons) Electrical"],
+                  "video": { "youtubeId": "REPLACE0001", "duration": "2:48:10" },
+                  "markers": [
+                    { "t": "0:00:00", "label": "Academic procession", "kind": "ceremony" },
+                    { "t": "0:18:40", "label": "Vice-Chancellor's address", "kind": "speech" },
+                    { "t": "0:41:05", "label": "Civil Engineering", "kind": "degree" },
+                    { "t": "1:22:30", "label": "Mechanical Engineering", "kind": "degree" },
+                    { "t": "2:05:15", "label": "Electrical Engineering", "kind": "degree" }
+                  ]
+                },
+                {
+                  "id": "northfield-2026-d1-s2",
+                  "name": "Session 2 · Afternoon",
+                  "startsAt": "14:00",
+                  "faculties": ["Faculty of Engineering"],
+                  "degrees": ["BSc Eng (Hons) Computer Science & Engineering", "BSc Eng (Hons) Electronic & Telecommunication"],
+                  "video": { "youtubeId": "REPLACE0002", "duration": "2:10:00" },
+                  "markers": [
+                    { "t": "0:12:00", "label": "Computer Science & Engineering", "kind": "degree" },
+                    { "t": "1:05:20", "label": "Electronic & Telecommunication", "kind": "degree" }
+                  ]
+                }
+              ]
+            },
+            {
+              "date": "2026-11-25",
+              "label": "Day 2",
+              "sessions": [
+                {
+                  "id": "northfield-2026-d2-s1",
+                  "name": "Session 3 · Morning",
+                  "startsAt": "08:30",
+                  "faculties": ["Faculty of Information Technology"],
+                  "degrees": ["BSc (Hons) IT", "BSc (Hons) Information Technology & Management", "BSc (Hons) Artificial Intelligence"],
+                  "video": { "youtubeId": "REPLACE0003", "duration": "2:30:45" },
+                  "markers": [
+                    { "t": "0:15:10", "label": "BSc (Hons) IT", "kind": "degree" },
+                    { "t": "1:02:00", "label": "IT & Management", "kind": "degree" },
+                    { "t": "1:48:30", "label": "Artificial Intelligence", "kind": "degree" }
+                  ]
+                },
+                {
+                  "id": "northfield-2026-d2-s2",
+                  "name": "Session 4 · Afternoon",
+                  "startsAt": "14:00",
+                  "faculties": ["Faculty of Architecture", "Faculty of Business"],
+                  "degrees": ["BSc Architecture", "BSc Town & Country Planning", "BBA (Hons)"],
+                  "video": { "youtubeId": "REPLACE0004", "duration": "2:05:00" },
+                  "markers": [
+                    { "t": "0:10:00", "label": "Faculty of Architecture", "kind": "faculty" },
+                    { "t": "1:01:30", "label": "Faculty of Business", "kind": "faculty" }
+                  ]
+                }
+              ]
+            },
+            {
+              "date": "2026-11-26",
+              "label": "Day 3",
+              "sessions": [
+                {
+                  "id": "northfield-2026-d3-s1",
+                  "name": "Session 5 · Postgraduate",
+                  "startsAt": "09:00",
+                  "faculties": ["Faculty of Graduate Studies"],
+                  "degrees": ["MSc", "MBA", "MPhil", "PhD"],
+                  "notes": "Doctoral candidates are conferred first.",
+                  "video": { "youtubeId": "REPLACE0005", "duration": "1:55:20" },
+                  "markers": [
+                    { "t": "0:08:00", "label": "PhD & MPhil", "kind": "degree" },
+                    { "t": "0:35:00", "label": "MBA", "kind": "degree" },
+                    { "t": "1:10:00", "label": "MSc", "kind": "degree" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "riverside-tech",
+      "name": "Riverside Institute of Technology",
+      "shortName": "RIT",
+      "location": "Kandy, Sri Lanka",
+      "timezone": "Asia/Colombo",
+      "convocations": [
+        {
+          "id": "riverside-tech-2026",
+          "title": "18th Convocation",
+          "year": 2026,
+          "days": [
+            {
+              "date": "2026-12-02",
+              "sessions": [
+                {
+                  "id": "riverside-tech-2026-d1-s1",
+                  "name": "Morning Session",
+                  "startsAt": "09:00",
+                  "faculties": ["School of Computing"],
+                  "degrees": ["BSc (Hons) Software Engineering", "BSc (Hons) Data Science", "BSc (Hons) Cyber Security"],
+                  "video": { "youtubeId": "REPLACE0006", "duration": "3:05:00" },
+                  "markers": [
+                    { "t": "0:22:00", "label": "Software Engineering", "kind": "degree" },
+                    { "t": "1:35:00", "label": "Data Science", "kind": "degree" },
+                    { "t": "2:20:00", "label": "Cyber Security", "kind": "degree" }
+                  ]
+                },
+                {
+                  "id": "riverside-tech-2026-d1-s2",
+                  "name": "Afternoon Session",
+                  "startsAt": "14:30",
+                  "faculties": ["School of Business", "School of Design"],
+                  "degrees": ["BBA (Hons)", "BA (Hons) Interior Design", "BA (Hons) Fashion Design"],
+                  "video": { "youtubeId": "REPLACE0007", "duration": "2:15:00" },
+                  "markers": [
+                    { "t": "0:14:00", "label": "School of Business", "kind": "faculty" },
+                    { "t": "1:12:00", "label": "School of Design", "kind": "faculty" }
+                  ]
+                }
+              ]
+            },
+            {
+              "date": "2026-12-03",
+              "sessions": [
+                {
+                  "id": "riverside-tech-2026-d2-s1",
+                  "name": "Engineering Session",
+                  "startsAt": "09:00",
+                  "faculties": ["School of Engineering"],
+                  "degrees": ["BEng (Hons) Mechatronics", "BEng (Hons) Electronics", "BEng (Hons) Civil"],
+                  "video": { "youtubeId": "REPLACE0008", "duration": "2:40:00" },
+                  "markers": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

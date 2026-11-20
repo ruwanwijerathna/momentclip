@@ -1,0 +1,14 @@
+services:
+  momentclip:
+    build: .
+    ports:
+      - "8787:8787"
+    env_file: .env
+    volumes:
+      - clips:/data
+      # edit the catalog without rebuilding — it hot-reloads every few seconds
+      - ./server/catalog:/app/server/catalog
+      # - ./cookies.txt:/secrets/cookies.txt:ro   # optional, see README
+    restart: unless-stopped
+volumes:
+  clips:

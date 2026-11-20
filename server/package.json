@@ -1,0 +1,19 @@
+{
+  "name": "momentclip-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "catalog:validate": "node scripts/validate-catalog.js",
+    "catalog:from-csv": "node scripts/csv-to-catalog.js"
+  },
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.5",
+    "momentclip": "file:.."
+  }
+}

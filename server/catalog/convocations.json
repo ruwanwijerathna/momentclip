@@ -1,0 +1,102 @@
+{
+  "$schema": "./convocations.schema.json",
+  "version": 1,
+  "updatedAt": "2026-11-19",
+  "universities": [
+    {
+      "id": "ruhuna",
+      "name": "University of Ruhuna",
+      "shortName": "Ruhuna",
+      "location": "Matara, Sri Lanka",
+      "timezone": "Asia/Colombo",
+      "website": "https://www.ruh.ac.lk",
+      "convocations": [
+        {
+          "id": "ruhuna-2026",
+          "title": "Convocation 2026",
+          "year": 2026,
+          "days": [
+            {
+              "date": "2026-11-18",
+              "label": "Day 1",
+              "sessions": [
+                {
+                  "id": "ruhuna-2026-s01",
+                  "name": "Session 01",
+                  "faculties": [],
+                  "degrees": [],
+                  "video": {
+                    "youtubeId": "kWus3VXFPf0",
+                    "title": "CONVOCATION 2026 - SESSION 01"
+                  },
+                  "markers": []
+                },
+                {
+                  "id": "ruhuna-2026-s02",
+                  "name": "Session 02",
+                  "faculties": [],
+                  "degrees": [],
+                  "video": {
+                    "youtubeId": "VFmBc-IXKV4",
+                    "title": "CONVOCATION 2026 - SESSION 02"
+                  },
+                  "markers": []
+                },
+                {
+                  "id": "ruhuna-2026-s03",
+                  "name": "Session 03",
+                  "faculties": [],
+                  "degrees": [],
+                  "video": {
+                    "youtubeId": "zKg08kd1fU8",
+                    "title": "CONVOCATION 2026 - SESSION 03"
+                  },
+                  "markers": []
+                }
+              ]
+            },
+            {
+              "date": "2026-11-19",
+              "label": "Day 2",
+              "sessions": [
+                {
+                  "id": "ruhuna-2026-s04",
+                  "name": "Session 04",
+                  "faculties": [],
+                  "degrees": [],
+                  "video": {
+                    "youtubeId": "T1PZmwKJTQc",
+                    "title": "CONVOCATION 2026 - SESSION 04"
+                  },
+                  "markers": []
+                },
+                {
+                  "id": "ruhuna-2026-s05",
+                  "name": "Session 05",
+                  "faculties": [],
+                  "degrees": [],
+                  "video": {
+                    "youtubeId": "He6k09-a1sc",
+                    "title": "CONVOCATION 2026 - SESSION 05"
+                  },
+                  "markers": []
+                },
+                {
+                  "id": "ruhuna-2026-s06",
+                  "name": "Session 06",
+                  "faculties": [],
+                  "degrees": [],
+                  "video": {
+                    "youtubeId": "Yk52YXzOgN4",
+                    "title": "CONVOCATION 2026 - SESSION 06"
+                  },
+                  "markers": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
